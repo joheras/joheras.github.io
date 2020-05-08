@@ -1,0 +1,43 @@
+remote_theme: christianezeani/panthera-jekyll
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+title: Panthera-Jekyll
+subtitle: Full-Stack Developer
+
+# Side menu
+menu:
+  - text: Portfolio
+    link: /
+    icon: ""
+
+  - text: Skills & Offers
+    link: /skills-and-offers
+    icon: ""
+
+  - text: Contact Me
+    link: /contact
+    icon: ""
+
+  - text: My Resume
+    link: /resume
+    icon: ""
+
+# Social links
+social_icons:
+
+  - name: github
+    link: https://github.com/joheras
+    icon: fab fa-github-square
+    
+  - name: twitter
+    link: https://twitter.com/_Jonathan_Heras
+    icon: fab fa-twitter
+
+    
