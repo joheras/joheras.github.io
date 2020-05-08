@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Fresh
 
-You can use the [editor on GitHub](https://github.com/joheras/joheras.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A personal theme with a blog for Stackbit. [Live Demo](https://themes.stackbit.com/demos/fresh)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fresh)
 
-### Markdown
+### Turn themes into CMS-powered websites
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Stackbit](https://www.stackbit.com/) provisions your theme's content model with a growing selection of headless CMS and pulls the content for you in the format your static site generator expects it. This is powered by a single config file, [stackbit.yaml](https://docs.stackbit.com/uniform/stackbit-yaml/), which defines a [Uniform theme model](https://docs.stackbit.com/uniform/) and enables integration with CMS like Contentful, DatoCMS, Forestry, NetlifyCMS, etc.
 
-```markdown
-Syntax highlighted code block
+### One theme codebase converts to multiple Static Site Generators
 
-# Header 1
-## Header 2
-### Header 3
+This theme in particular is written in [Unibit](https://docs.stackbit.com/unibit/), a superset of static site generators. Unibit's powerful transpiling engine enables you to write once and stay SSG agnostic. Themes will automatically work with new generators as they are added and can currently convert to Jekyll, Hugo & Gatsby.
 
-- Bulleted
-- List
+## Quickstart
 
-1. Numbered
-2. List
+### Unibit CLI
 
-**Bold** and _Italic_ and `Code` text
+Develop locally using the Unibit CLI. 
 
-[Link](url) and ![Image](src)
+```
+npm install -g @stackbit/unibit
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Start the local development server. 
 
-### Jekyll Themes
+```
+unibit develop
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joheras/joheras.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Compile a production build into the `public` folder.
 
-### Support or Contact
+```
+unibit build
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### CodeSandbox
+
+Develop this theme in the browser using CodeSandbox.
+
+[Fork in CodeSandbox](https://codesandbox.io/s/github/stackbithq/stackbit-theme-fresh)
