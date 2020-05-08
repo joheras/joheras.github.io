@@ -31,13 +31,25 @@ menu:
 
 # Social links
 social_icons:
+  - name: linkedin
+    link: https://www.linkedin.com/christianezeani
+    icon: fab fa-linkedin
 
   - name: github
-    link: https://github.com/joheras
+    link: https://github.com/christianezeani
     icon: fab fa-github-square
-    
+
+  - name: facebook
+    link: https://www.facebook.com/christian.ezeani.cyb
+    icon: fab fa-facebook-square
+
   - name: twitter
-    link: https://twitter.com/_Jonathan_Heras
+    link: https://www.twitter.com/christianezeani
     icon: fab fa-twitter
+
+  - name: rubygem
+    link: https://rubygems.org/profiles/christianezeani
+    icon: fas fa-gem
+
 
     
