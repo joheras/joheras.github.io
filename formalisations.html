@@ -1,0 +1,339 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script language="javascript">
+function ScaleSize()
+{
+document.getElementById("imgTag").style.width = document.body.clientWidth;
+document.getElementById("imgTag").style.height = document.body.clientHeight;
+}
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53945051-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<head>
+    <title>Jónathan Heras</title>
+    <link href="tabmenu.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body style="padding:60px 20px;">
+<TABLE CELLSPACING=6 CELLPADDING=0><TR><TD ALIGN=left NOWRAP>     </TD><TD ALIGN=left NOWRAP>
+<TABLE CELLSPACING=6 CELLPADDING=0><TR><TD ALIGN=center NOWRAP><B><FONT COLOR=#0079bd><FONT SIZE=6>Jónathan Heras Vicente</FONT></FONT></B>
+  </TD></TR>
+<TR><TD ALIGN=center NOWRAP><TABLE CELLSPACING=6 CELLPADDING=0><TR><TD ALIGN=left NOWRAP>Lecturer at the <a href="http://www.unirioja.es/dptos/dmc/">Department of Mathematics and Computer Science</a>, <a href="http://www.unirioja.es">University of La Rioja</a>.<!-- Software developer in <a href="http://www.formavolucion.com/">Formavolucion.</a></TD></TR>-->
+<TR><TD ALIGN=left NOWRAP>Member of <a href="https://esus.unirioja.es/psycotrip">the Grupo de Informática de la Universidad de La Rioja</a></TD></TR>
+<TR><TD ALIGN=left NOWRAP>Despacho 3210. CCT. Department of Mathematics and Computer Science. University of La Rioja.</TD></TR>
+<TR><TD ALIGN=left NOWRAP>Logroño. Spain. 26004.</TD></TR>
+<TR><TD ALIGN=left NOWRAP>phone: (+34) 941299450 </TD></TR>
+<TR><TD ALIGN=left NOWRAP>mail: joheras at gmail.com </TD></TR>
+</TABLE></TD></TR>
+</TABLE></TD></TR>
+</TABLE></TD></TR>
+</TABLE>
+
+
+<div id='cssmenu'>
+<ul>
+    <li class='has-sub'>
+        <a>Publications</a>
+        <ul>
+                    <li><a href="papers.html">Papers</a></li>
+                    <li><a href="conferences.html">Conferences</a></li>
+                    <li><a href="posters.html">Posters</a></li>
+                    <li><a href="https://esus.unirioja.es/psycotrip/index.php?op=miembro&op_mi=documentos&miembro=0017">Other Documents</a></li>
+<li><a href="cv.pdf">CV (pdf)</a></li>
+		    <li><a href="http://www.unirioja.es/cu/joheras/Thesis/">Thesis</a></li>
+        
+        </ul>
+    </li>
+    <li class='has-sub'>
+        <a href="projects.html">Projects</a>
+        <ul>
+ <li><a href="projects.html#digibac">DIGIBAC</a></li>
+            <li><a href="projects.html#ml4pg">ML4PG</a></li>
+            <li><a href="projects.html#coalp">CoALP</a></li>
+	    <li><a href="projects.html#acl2ml">ACL2(ml)</a></li>
+   	    <li><a href="projects.html#old">Old Projects</a></li>
+        </ul>
+    </li>
+    <li class='has-sub'>
+        <a href="formalisations.html">Formalisations</a>
+        <ul>
+            <li><a href="formalisations.html#coq">Coq</a></li>
+            <li><a href="formalisations.html#acl2">ACL2</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="programs.html">Programs</a>
+    </li>
+
+    <li>
+        <a href="teaching.html">Teaching</a>
+    </li>
+    
+</ul>
+</div>
+
+<h2>Formalisations:</h2>
+
+<hr>
+
+<a name="coq">Coq:</a>
+
+<ul>
+    <li> Incidence simplicial matrices formalized in Coq/SSReflect. J.
+Heras, M. Poza, M. Dénès and L. Rideau.
+</li>
+    <ul>
+      <li> Lecture Notes in Computer Science, 6824, pages 30--44, 2011. Conference: <a href="http://cicm11.cs.unibo.it/cicm11/">CICM
+2011</a> 
+</li>
+      <li> <a class="abs" href="#" onclick="cambiar('ismfics'); return false;">Description:</a>
+        <div id="ismfics" > Simplicial
+complexes are at the heart of Computational Algebraic
+Topology, since they give an elementary description of finite objects.
+The
+whole theory is used in different contexts such as coding theory,
+robotics or
+digital image analysis. In this paper we present a formalization in the
+COQ
+theorem prover of simplicial complexes and their incidence matrices as
+well
+as the main theorem that gives meaning to the definition of homology
+groups
+and is a first step towards their computation.</div>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/joheras/ismfissr/imscf.v">Code</a>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/uploads/ForMath/ismfis">Paper
+(preprint)</a>
+</li>
+      <li> <a href="http://dx.doi.org/10.1007/978-3-642-22673-1_3">DOI</a>
+</li>
+    </ul>
+  </ul>
+</li>
+
+
+
+<ul>
+    <li> Towards a certified computation of homology groups for digital images. J. Heras
+Heras, M. Dénès, G. Mata, A. Mörtberg, M. Poza, and V. Siles.
+</li>
+    <ul>
+      <li> Lecture Notes in Computer Science, 7309, pages 49--57, 2012. Conference: <a href="http://ctic2012.dm.unibo.it/index">CTIC 
+2012</a> 
+</li>
+      <li> <a class="abs" href="#" onclick="cambiar('ctic2012'); return false;">Description:</a>
+        <div id="ctic2012" >
+In this paper we report on a project to obtain a verified computation of homology groups of digital images.
+The methodology is based on programming and executing inside the Coq proof assistant. Though more
+research is needed to integrate and make efficient more processing tools, we present some examples partially computed in Coq from real biomedical images.
+</div>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ProofExamples">Code</a>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/uploads/ForMath/taccohgfdi-final">Paper
+(preprint)</a>
+</li>
+      <li> <a href="http://dx.doi.org/10.1007/978-3-642-30238-1_6">DOI</a>
+</li>
+    </ul>
+  </ul>
+</li>
+
+
+
+
+<ul>
+    <li> Verifying an algorithm computing Discrete Vector Fields for digital imaging, J. Heras, M. Poza, and J. Rubio.
+</li>
+    <ul>
+      <li> Lecture Notes in Computer Science, 7362, pages 215--229, 2012. Conference: <a href="http://www.informatik.uni-bremen.de/cicm2012/cicm.php">Calculemus 
+2012</a> 
+</li>
+      <li> <a class="abs" href="#" onclick="cambiar('cicm2012'); return false;">Description:</a>
+        <div id="cicm2012" >
+
+In this paper, we present a formalization of an algorithm to construct admissible discrete vector fields
+in the Coq theorem prover taking advantage of the SSReflect library. Discrete vector fields are a tool
+which has been welcomed in the homological analysis of digital images since it provides a procedure
+to reduce the amount of information but preserving the homological properties. In particular,
+thanks to discrete vector fields, we are able to compute, inside Coq, homological properties of
+biomedical images which otherwise are out of the reach of this system. 
+</div>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ProofExamples#wp3ex5">Code</a>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/uploads/ForMath/vaacdvffdi">Paper
+(preprint)</a>
+</li>
+<li> <a href="http://dx.doi.org/10.1007/978-3-642-31374-5_15">DOI</a>
+    
+    </ul>
+  </ul>
+</li>
+
+<ul>
+    <li>  Computing Persistent Homology within Coq/SSReflect. J. Heras, T. Coquand, A. Mörtberg, and V. Siles.
+</li>
+    <ul>
+      <li> ACM Transactions on Computational Logic, 14(4). 2013. </li>
+      <li> <a class="abs" href="#" onclick="cambiar('tocl'); return false;">Description:</a>
+        <div id="tocl" >
+Persistent homology is one of the most active branches of
+Computational Algebraic Topology with applications in several contexts
+such as optical character recognition or analysis of point cloud data. In
+this paper, we report on the formal development of certified programs to
+compute persistent Betti numbers, an instrumental tool of persistent homology,
+using the Coq proof assistant together with the SSReflect extension. To this aim it has been necessary to formalize the underlying
+mathematical theory of these algorithms. This is another example showing that interactive theorem provers have reached a point where they
+are mature enough to tackle the formalization of nontrivial mathematical theories
+
+</div>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ProofExamples#wp3ex6">Code</a>
+</li>
+      <li> <a href="http://arxiv.org/pdf/1209.1905.pdf">Paper (Arxiv version)</a>
+</li>
+ <li> <a href="http://dx.doi.org/10.1145/2528929">DOI</a>
+</li>
+     <br/> 
+    </ul>
+
+
+    <li>  A certified reduction strategy for homological image processing. M. Poza, C. Domínguez, J. Heras, and J. Rubio.
+</li>
+    <ul>
+      <li> ACM Transactions on Computational Logic, 15(3). 2014.  </li>
+      <li> <a class="abs" href="#" onclick="cambiar('tocl'); return false;">Description:</a>
+        <div id="tocl" >
+	  The analysis of digital images using homological procedures is an outstanding topic in the area of Computational Algebraic Topology. In this paper, we describe a certified reduction strategy to deal with digital images, but preserving their homological properties. We stress both the advantages of our approach (mainly, the formalisation of the mathematics allowing us to verify the correctness of algorithms) and some limitations (related to the performance of the running systems inside proof assistants). The drawbacks are overcome using techniques that provide an integration of computation and deduction. Our driving application is a problem in bioinformatics, where the accuracy and reliability of computations are specially requested. 
+
+</div>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/cedomin/crship/">Code</a>
+</li>
+      <li> <a href="http://arxiv.org/pdf/1306.0806.pdf">Paper (Arxiv version)</a>
+</li>
+     <li> <a href="http://dx.doi.org/10.1145/2630789">DOI</a> 
+    
+  </ul>
+</ul>
+
+<hr>
+
+<a name="acl2">ACL2:</a>
+
+<ul>
+    <li> ACL2 verification of Kenzo simplicial sets. J. Heras, V. Pascual and J. Rubio
+</li>
+    <ul>
+<li> Lecture Notes in Computer Science, 6824, pages 30--44, 2011. Conference: <a href="http://www.risc.jku.at/conferences/lopstr2010/"> LOPSTR 2010</a></li>
+      <li> <a class="abs" href="#" onclick="cambiar('avokss'); return false;">Description:</a> 
+          <div id="avokss" > Kenzo is a Common Lisp system devoted to Algebraic Topology.
+Although Kenzo uses higher-order functional programming intensively,
+we show in this paper how the theorem prover ACL2 can be used
+to prove the correctness of first order fragments of Kenzo. More concretely,
+we report on the verification in ACL2 of the implementation
+of simplicial sets. By means of a generic instantiation mechanism, we
+achieve the reduction of the proving effort for each family of simplicial
+sets, letting ACL2 automate the routine parts of the proofs. </div>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/joheras/Simplicial-Sets-Generic-tool.rar"> Code </a>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/uploads/ForMath/lopstr2010-lncs"> Paper (preprint)</a>
+</li>
+ <li> <a href="http://dx.doi.org/10.1007/978-3-642-20551-4_3"> DOI </a>
+</li><br/>
+    </ul>
+    <li> A certified module of Simplicial Complexes for the Kenzo system. J. Heras, V. Pascual and J. Rubio
+</li>
+    <ul>
+
+      <li> Conference: <a href="http://www.iuctc.ulpgc.es/spain/eurocast2011/"> EUROCAST 2011</a></li>
+      <li>  <a class="abs" href="#" onclick="cambiar('acmoscftks'); return false;">Description:</a>
+<div id="acmoscftks" > 
+Kenzo is a Computer Algebra System devoted to Algebraic
+Topology, and written in the Common Lisp programming language. In
+this paper, we give the programs which allow us to work with simplicial
+complexes in the Kenzo system, besides a complete automated proof of
+the correctness of our programs is provided. The proof is carried out
+using ACL2, a system for proving properties of programs written in (a
+subset of) Common Lisp.</div>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/joheras/Thesis/Chapter%205/ACL2/simplicial-complexes.lisp"> Code</a>
+</li>
+      <li> <a href="http://wiki.portal.chalmers.se/cse/uploads/ForMath/acmoscftks-lncs">Paper (preprint)</a>
+</li><br/>
+</ul>
+
+
+<li> A certified module to study digital images with the Kenzo system. J. Heras, V. Pascual and J. Rubio
+</li>
+    <ul>
+      <li> Lecture Notes in Computer Science, 6927, pages 113--120, 2011</a>
+      <li>  <a class="abs" href="#" onclick="cambiar('acmtsdiwtks'); return false;">Description:</a> 
+<div id="acmtsdiwtks" > 
+Kenzo is a Computer Algebra system devoted to Algebraic
+Topology, written in the Common Lisp programming language. In this
+paper, programs which allow us to analyze monochromatic digital images
+with the Kenzo system are presented. Besides a complete automated
+proof of the correctness of our programs is provided. The proof is carried
+out using ACL2, a system for proving properties of programs written in
+(a subset of) Common Lisp.</div>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/joheras/Digital-Images.rar"> Code</a>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/joheras/acmtsdiwtks.pdf">Paper (preprint)</a>
+</li>
+ <li> <a href="http://dx.doi.org/10.1007/978-3-642-27549-4_15"> DOI </a></li> <br/>
+
+    </ul>
+
+
+<li> Mathematical structures in ACL2. J. Heras, F.J. Mart&iacute;n-Mateos and V. Pascual
+</li>
+    <ul>
+<li> Submitted </li>
+      <li>  <a class="abs" href="#" onclick="cambiar('msia'); return false;">Description:</a> 
+<div id="msia" > 
+In this paper, we provide a methodology allowing one to deal with
+mathematical structures in the ACL2 theorem prover. Namely, we cope with the
+representation of mathematical structures, the certifiation that an object fullls
+the axioms which characterize an algebraic structure and the generation of generic
+instances of a concrete structure. As a by-product, an ACL2 algebraic hierarchy
+has been obtained. Our framework has been tested with the definition of homol-
+ogy groups, an example coming from Homological Algebra which involves several
+notions related to Universal Algebra. The method presented in this paper means a
+great profit, with respect to a from scratch approach, when we work with complex
+mathematical structures.</div>
+</li>
+      <li> <a href="http://www.unirioja.es/cu/joheras/algebraic-structures.zip"> Code</a>
+</li>
+      <li>Paper (preprint)
+</li>
+
+
+    </ul>
+</ul>
+
+<hr>
+
+
+</body>
+</html>
